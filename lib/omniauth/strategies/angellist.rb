@@ -19,6 +19,7 @@ module OmniAuth
       info do
         {
           "name" => raw_ifno["name"],
+          "email" => raw_ifno["email"],
           "bio" => raw_ifno["bio"],
           "blog_url" => raw_ifno["blog_url"],
           "online_bio_url" => raw_ifno["online_bio_url"],
